@@ -21,8 +21,10 @@
     display: flex;
     align-items: center;
     background: rgb(232, 232, 232);
-    padding: 10px;
+    padding:  5px 10px;
     border-radius: 999px;
+    height: 30px;
+    margin-left:10px ;
 }
 .header_left >img{
     height: 40px;
@@ -32,4 +34,55 @@
     border: none;
     outline-width: 0;
     background-color: transparent;
+    
+}
+
+.header_center{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header_options > .MuiSvgIcon-root{
+    color: gainsboro;
+}
+
+.header_options:hover > .MuiSvgIcon-root{
+    color: rgb(24,119,242);
+}
+
+.header_options_active > .MuiSvgIcon-root{
+    color: rgb(24,119,242);
+}
+
+.header_options_active{
+    border-bottom: 4px solid rgb(24,119,242);;
+}
+
+.header_options{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header_options:hover{
+    background-color: rgb(232, 230, 230);
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header_info{
+    display: flex;
+    align-items: center;
+}
+
+.header_info >h4{
+    margin-left:10px ;
+}
+
+.header_right{
+    display: flex;
 }

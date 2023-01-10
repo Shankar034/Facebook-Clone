@@ -7,16 +7,19 @@ function App() {
 
     //BEM naming conviction
     <div className="app">
-    <h1>Lets build the facebook clone</h1>
+   
 
     {/* header */}
     <Header/>
 
     {/* App body */}
-
+    <div className="app_body">
       {/* sidebar */}
       {/* feed */}
       {/* Widgets */}
+
+    </div>
+
       
     </div>
   );
