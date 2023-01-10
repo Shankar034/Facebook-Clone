@@ -6,8 +6,14 @@ import FlagIcon from '@material-ui/icons/Flag';
 import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import AddIcon from '@material-ui/icons/Add';
+import ForumIcon from '@material-ui/icons/Forum';
+import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import { IconButton } from "@material-ui/core";
 
-import { Avatar} from "material-ui/core"
+
 
 function Header() {
   return (
@@ -41,8 +47,22 @@ function Header() {
       </div>
       <div className="header_right">
         <div className="header_info">
-            <Avatar alt="Remy Sharp" />
+        <AccountCircleIcon fontSize="large"/>
+        <h4>Sagarmatha</h4>
         </div>
+
+        <IconButton>
+          <AddIcon/>
+        </IconButton>
+        <IconButton>
+          <ForumIcon/>
+        </IconButton>
+        <IconButton>
+          <NotificationsActiveIcon/>
+        </IconButton>
+        <IconButton>
+          <ExpandMoreIcon/>
+        </IconButton>
       </div>
     </div>
   );
