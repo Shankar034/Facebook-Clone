@@ -52,11 +52,11 @@
 }
 
 .header_options_active > .MuiSvgIcon-root{
-    color: rgb(24,119,242);
+    color: rgb(24, 119, 242);
 }
 
 .header_options_active{
-    border-bottom: 4px solid rgb(24,119,242);;
+    border-bottom: 4px solid rgb(24, 119, 242);
 }
 
 .header_options{
