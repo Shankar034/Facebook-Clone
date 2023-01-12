@@ -36,11 +36,11 @@ function StoryReel() {
         title="Robert Downey. Jr"
         />
         {/* Story */}
-      <Story
+      {/* <Story
         image="https://static.toiimg.com/thumb/56441969.cms?width=170&height=240"
         profileSrc="https://static.toiimg.com/photo/54475662.cms"
         title="Ranbir Kapoor"
-        />
+        /> */}
         
         <Story
         image="https://static.toiimg.com/photo/54475662.cms "
