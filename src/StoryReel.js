@@ -41,6 +41,16 @@ function StoryReel() {
         profileSrc="https://static.toiimg.com/photo/54475662.cms"
         title="Ranbir Kapoor"
         />
+        <Story
+        image="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt201e5db629572735/632ae0f166b35c473c48cbba/GettyImages-1241127731.jpg"
+        profileSrc="   https://images.hellomagazine.com/imagenes/celebrities/20220530141601/cristiano-ronaldo-toned-torso-sauna-selfie/0-689-676/cristiano-ronaldo-toned-torso-sauna-selfie-t.jpg?tx=w_500"
+        title="Cristiano Ronaldo"
+        />
+        <Story
+        image="https://static.toiimg.com/photo/54475662.cms "
+        profileSrc="  https://static.toiimg.com/thumb/56441969.cms?width=170&height=240"
+        title="Ranbir Kapoor"
+        />
     </div>
   );
 }
