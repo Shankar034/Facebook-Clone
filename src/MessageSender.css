@@ -1,0 +1,83 @@
+.messageSender{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgb(96, 96, 97);
+    width: 100%;
+
+
+}
+
+.messageSender_top{
+    display: flex;
+    border-bottom: 1px solid rgb(232, 227, 227);
+    
+    padding: 15px;
+}
+
+.messageSender_top > form{
+    flex: 1;
+    display: flex;
+}
+
+.messageSender_top > form >input{
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: rgb(239, 238, 238);
+}
+
+.messageSender_top >form >button{
+    display: none;
+}
+
+/* @media (max-width:1200px){
+    .messageSender_top >form >button{
+        border-radius: 20px;
+
+        display: visible;
+    }
+} */
+
+.messageSender > input{
+    flex: 1;
+}
+
+
+/* .messageSender_bottom{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+
+.messageSender_option{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+.messageSender_option >div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.messageSender_option >div >h3{
+    margin-left:10px ;
+    font-size: medium;
+}
+.messageSender_option>div:hover{
+    
+    cursor: pointer;
+    background-color: rgb(228, 226, 226);
+    border-radius: 20px;
+   
+   
+}
