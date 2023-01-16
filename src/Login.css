@@ -1,0 +1,28 @@
+.login >div > img{
+    margin-top: 30px;
+    display: grid;
+    object-fit: contain;
+    height: 150px;
+}
+
+.login > button{
+    width: 300px;
+    background-color: rgb(24,119,242);
+    color: aliceblue;
+    font-weight: 800;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 500px;
+    
+    
+}
+.login >button:hover{
+    background-color: aliceblue;
+    color: rgb(24,119,242);
+}
+
+.login >div{
+    display: flex;
+    flex-direction: column;
+}
