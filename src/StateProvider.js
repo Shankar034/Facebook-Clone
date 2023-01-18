@@ -1,10 +1,8 @@
-import React from 'react'
-import "./StateProvider.css"
+import React, {createContext, useContext, useReducer} from "react";
+export const StateContext = createContext();
+export const StateProvider = ({reducer, initialState, children})=>
+{
+        <StateContext.Provider value={useReducer(reducer, initialState)}>{children}</StateContext.Provider>
+};
 
-function StateProvider() {
-  return <div className="stateProvider">
-
-  </div>
-}
-
-export default StateProvider
+export const useStateValue = () =>useContext(StateContext);

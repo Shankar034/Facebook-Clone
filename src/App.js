@@ -5,9 +5,10 @@ import Sidebar from './Sidebar.js';
 import Feed from './Feed.js';
 import Widget from './Widget.js'
 import  Login from './Login.js'
+import { useStateValue } from './StateProvider';
 
 function App() {
-  const user = null;
+  const [{user}, dispatch] = useStateValue();
   return (
 
     //BEM naming conviction
